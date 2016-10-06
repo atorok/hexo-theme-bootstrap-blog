@@ -18,12 +18,16 @@ widgets:
 - archive
 - recent_posts
 about_widget_content: >
-    Hi! I'm Alpar, sofware developer and architect,
-    living in 
-    <a href="https://en.wikipedia.org/wiki/Cluj-Napoca">Cluj-Napoca, Romania</a>
-    and working remotely across the globe.<br />
+    <div style="align:center;text-align:center" />
+    <img src="/profile.jpg" class="img-circle" width="120" />
     <br />
-    <a href="https://ro.linkedin.com/in/torokalpar" class="fa fa-linkedin-square" aria-hidden="true"></a>
+    <br />
+    <div style="font-size: 16pt; text-color: black;">
+        <a class="fa fa-linkedin-square" href="https://ro.linkedin.com/in/torokalpar" aria-hidden="true"></a>
+        <a class="fa fa-github-square fa-github-square" href="https://github.com/atorok/" aria-hidden="true"></a>
+        <a class="fa fa-github-square fa-stack-overflow" href="https://stackoverflow.com/users/740641/alpar" aria-hidden="true"></a>
+    </div>
+    </div>
 
 # widget behavior
 archive_type: 'monthly'
