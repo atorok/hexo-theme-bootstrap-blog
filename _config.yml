@@ -17,13 +17,6 @@ widgets:
 - tagcloud
 - archive
 - recent_posts
-about_widget_content: >
-    Hi! I'm Alpar, sofware developer and architect,
-    living in 
-    <a href="https://en.wikipedia.org/wiki/Cluj-Napoca">Cluj-Napoca, Romania</a>
-    and working remotely across the globe.<br />
-    <br />
-    <a href="https://ro.linkedin.com/in/torokalpar" class="fa fa-linkedin-square" aria-hidden="true"></a>
 
 # widget behavior
 archive_type: 'monthly'

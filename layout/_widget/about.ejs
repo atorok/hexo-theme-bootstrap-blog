@@ -1,4 +1,13 @@
 <div class="sidebar-module sidebar-module-inset">
-  <h4>About</h4>
-  <%- theme.about_widget_content %>
+  <div style="align:center;text-align:center" />
+    <img src="<%- url_for('/profile.jpg') -%>" class="img-circle" width="120" />
+    <br />
+    <br />
+    <div style="font-size: 20pt">
+        <a style="color: gray" class="fa fa-linkedin-square" href="https://ro.linkedin.com/in/torokalpar" aria-hidden="true"></a>
+        <a style="color: gray" class="fa fa-github-square" href="https://github.com/atorok/" aria-hidden="true"></a>
+        <a style="color: gray" class="fa fa-stack-overflow" href="https://stackoverflow.com/users/740641/alpar" aria-hidden="true"></a>
+        <a style="color: gray" class="fa fa-rss" href="<%- url_for(theme.rss) -%>" aria-hidden="true"></a>
+    </div>
+    </div>
 </div>
